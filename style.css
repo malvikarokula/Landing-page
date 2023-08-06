@@ -1,0 +1,252 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  nav ul li a.active {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  
+  .hero {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/10766.jpg);
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    margin-top: 50px;
+    font-size: 40px;
+    color: #FFFFFB;
+    text-shadow: 2px 1px 2px rgba(255,255,251, 0.8);
+    margin-bottom: 20px;
+  }
+
+  .hero p{
+    margin-top: 110px;
+    font-size: 20px;
+    color: #fff5ee;
+    margin-bottom: 20px;
+  }
+
+  .hero .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero .btn:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .hero .btn:active {
+    background-color: #fff;
+    color: #333;
+  }
+
+  #about{
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 150px;
+  }
+  .abt{
+    display: flex;
+  }
+  
+  #about h2{
+    text-align: center;
+    color: #000;
+    padding-top: 20px;
+    font-size: 40px;
+  }
+
+
+  .container {
+    /* max-width: 960px; */
+    margin: 0 auto;
+    padding: 40px;
+  }
+
+  .container p:nth-child(1){
+    margin-top: 70px;
+  }
+
+  .container p:nth-child(2){
+    margin-top: 40px;
+  }
+
+  .container h2 {
+    font-size: 30px;
+    color: #fff5ee;
+    margin-bottom: 20px;
+  }
+
+  .about-image img{
+    height: 450px;
+    width: 450px;
+  }
+
+#mission{
+    /* width: 100%; */
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/missionbg.jpg);
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+  }
+
+#mission h2{
+    text-align: center;
+    color: #fff;
+    padding-top: 80px;
+    font-size: 40px;
+  }
+
+section#mission .slider {
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    overflow: hidden;
+    white-space: wrap;
+    margin-top: 20px;
+  }
+  
+  section#mission .card {
+    display: inline-block;
+    width: 300px;
+    margin-right: 20px;
+    vertical-align: top;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  section#mission .card img {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  section#mission .card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section#mission .card p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 0;
+  }
+  
+  section#mission .card:hover {
+    transform: scale(1.05);
+  }
+  
+  #contact{
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 150px;
+  }
+  #contact h2{
+    font-size: 40px;
+  }
+  
+  form input, form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius:25px ;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
